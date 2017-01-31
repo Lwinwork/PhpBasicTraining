@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STOCKLIST>
+  <STOCK>
+    <BOOK>
+      <TITLE>basic PHP</TITLE>
+      <AUTHOR>WINGSproject</AUTHOR>
+      <PRICE>2980</PRICE>
+    </BOOK>
+    <STOCKNUM>10</STOCKNUM>
+  </STOCK>
+  <STOCK>
+    <BOOK>
+      <TITLE>usePHP</TITLE>
+      <AUTHOR>WINGSproject</AUTHOR>
+      <PRICE>3980</PRICE>
+    </BOOK>
+    <STOCKNUM>15</STOCKNUM>
+  </STOCK>
+  
+</STOCKLIST>

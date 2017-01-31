@@ -1,0 +1,24 @@
+<html>
+<head><meta http-equiv="Content type" content="text/html; charset=utf-8" />
+  <title>weather of every place</title>
+  <script type="text/javascript" src-"ajawx.php?client=all"></script>
+  <script type="text/javascript" src-"ajawx.php?stub=all"></script>
+  <script type  ="text/javascript">
+
+  function callback(){
+    this.printWeather = function(result){
+        document.getElementryById('target').innerHTML = result;
+
+    }
+  }
+var proxy = new RssWeater(new callback());
+</script>
+</head?
+<body>
+
+  <a href="javascript:proxy.printWeather('81');">osaka<br/></a>
+  <a href="javascript:proxy.printWeather('38');">nagoya<br/></a>
+  <a href="javascript:proxy.printWeather('63');">Tokyo<br/><br/></a>
+  <div id="target"></div>
+</body>
+</html>
