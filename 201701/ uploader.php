@@ -17,6 +17,6 @@ if(substr(PHP_OS,0,3) == 'WIN'){
   }else{
     print("<b>".$filename."</b> uploaded");
   }
-echo hello;
+
 ?>
 </body>
